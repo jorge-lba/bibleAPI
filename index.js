@@ -2,7 +2,7 @@
 const Bible = require('./controller/bible')
 
 //
-const port = 3003;
+const port = 8080;
 
 const express = require('express');
 const app = express();
@@ -20,6 +20,11 @@ app.get('/bible',(req, res, next) =>{
             req.body.chapter,
             req.body.verse
             )
+        
+    console.log( req.body.language, req.body.book,
+        req.body.chapter,
+        req.body.verse,
+        req.body.version)
     res.send(bibleV); 
 })
 
