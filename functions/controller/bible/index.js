@@ -12,6 +12,17 @@ Array.prototype.mapToFalse = function(callback){
     return newArray;
 }
 
+const assentRemove = (text) =>{       
+    text = text.toString().toLowerCase();                                                         
+    text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
+    text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
+    text = text.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
+    text = text.replace(new RegExp('[ÓÒÔÕ]','gi'), 'o');
+    text = text.replace(new RegExp('[ÚÙÛ]','gi'), 'u');
+    text = text.replace(new RegExp('[Ç]','gi'), 'c');
+    return text.replace(' ','').replace(' ', '').replace('1','I').replace('2','II').replace('3','III');                 
+};
+
 module.exports = class Bible {
     constructor(language = 'pt-br', version = 'NVI'){
         this.all = allBible(language,version);
@@ -99,6 +110,7 @@ module.exports = class Bible {
         if(book == false || book == undefined)return 'Selecione um livro!'
         chapter = this.testValue(chapter);
         verse = this.testValue(verse);
+        book = assentRemove(book)
        
         const arrayBible = [book,chapter,verse].mapToFalse(e => e);
         const bibleTested = this.testBible(arrayBible);
