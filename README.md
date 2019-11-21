@@ -21,7 +21,8 @@ Parametros:<br /><p>
     - chapter   = 1         (Captulo)
     - verse     = 1         (Versos)
 
-__Obs:__    - Caso não passa o idioma e versão, a api retonar como padrão em português na versão NVI.<br />
-            - Para evitar problemas no get a api faz a formatação na chamada do livro, tirando assentos, tranforma os numero 1,2,3 em i,ii,iii e faz o .toLowerCase().<br />
-            - Numeros negativos nos campos capitulo e versos retornam 1.<br />
-            - Numeros não existentes nos campos capitulo e versos retornam o ultimo valor valido.<br />
+__Obs:__   
+ - Caso não passa o idioma e versão, a api retonar como padrão em português na versão NVI.<br />
+- Para evitar problemas no get a api faz a formatação na chamada do livro, tirando assentos, tranforma os numero 1,2,3 em i,ii,iii e faz o .toLowerCase().<br />
+- Numeros negativos nos campos capitulo e versos retornam 1.<br />
+- Numeros não existentes nos campos capitulo e versos retornam o ultimo valor valido.<br />
