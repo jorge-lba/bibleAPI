@@ -1,5 +1,5 @@
 // Import Holy Bible Content
-const Bible = require('./controller/bible')
+const Bible = require('./functions/controller/bible')
 
 //
 const port = 8080;
@@ -7,7 +7,7 @@ const port = 8080;
 const express = require('express');
 const app = express();
 
-const bodyParser = require('./node_modules/body-parser');
+const bodyParser = require('./functions/node_modules/body-parser');
 
 app.use(bodyParser.urlencoded({extended: true}));
 
