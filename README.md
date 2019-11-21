@@ -11,7 +11,7 @@ Todas as versões da Bíblia foram obtidas no GitHub do [Thiago Bodruk][https://
 
 Para utilizar a API utilizei a seguinte formatação da URL:<br /><p>
 
-https://.../bible?language=pt-br&version=NVI&book=genesis&chapter=1&verse=1<br /><p>
+https://.../bible?__language=pt-br__&__version=NVI__&__book=genesis__&__chapter=1&verse=1__<br /><p>
 
 Parametros:<br /><p>
 
