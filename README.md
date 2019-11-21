@@ -15,11 +15,11 @@ https://.../bible?language=pt-br&version=NVI&book=genesis&chapter=1&verse=1<br /
 
 Parametros:<br /><p>
 
-    - language  = pt-br     (Idioma)
-    - version   = NVI       (Versão)
-    - book      = Genesis   (Livro)
-    - chapter   = 1         (Captulo)
-    - verse     = 1         (Versos)
+- language  = pt-br     (Idioma)
+- version   = NVI       (Versão)
+- book      = Genesis   (Livro)
+- chapter   = 1         (Captulo)
+- verse     = 1         (Versos)
 
 __Obs:__   
  - Caso não passa o idioma e versão, a api retonar como padrão em português na versão NVI.<br />
