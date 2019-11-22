@@ -7,8 +7,8 @@ Todas as versões da Bíblia foram obtidas no GitHub do [__Thiago Bodruk__](http
 ## Get<p>
 
 [__Link da API__](http://us-central1-bibleapi-kll.cloudfunctions.net/bible)<br />
-[__Link Genesis (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis)<br /><p>
-[__Link Genesis 1 (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis&chapter=1)<br /><p>
+[__Link Genesis (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis)<br />
+[__Link Genesis 1 (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis&chapter=1)<br />
 [__Link Genesis 1:1 (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis&chapter=1&verse=1)<br /><p>
 
 Para utilizar a API utilizei a seguinte formatação da URL:<br /><p>
