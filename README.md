@@ -2,12 +2,12 @@
 
 API de consulta há Bíblia Sagrada. (Hospedagem no Firebase)<br />
 Projeto criado para estudos, os resultados são em formato JSON<br />
-Todas as versões da Bíblia foram obtidas no GitHub do [Thiago Bodruk][https://github.com/thiagobodruk].<br /><p>
+Todas as versões da Bíblia foram obtidas no GitHub do [__Thiago Bodruk__](https://github.com/thiagobodruk).<br /><p>
 
 ## Get<p>
 
-[Link da API][http://us-central1-bibleapi-kll.cloudfunctions.net/bible]<br />
-[Link Genesis 1:1 (pt-br, NVI)][https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis&chapter=1&verse=1]<br /><p>
+[__Link da API__](http://us-central1-bibleapi-kll.cloudfunctions.net/bible)<br />
+[__Link Genesis 1:1 (pt-br, NVI)__](https://us-central1-bibleapi-kll.cloudfunctions.net/bible?book=genesis&chapter=1&verse=1)<br /><p>
 
 Para utilizar a API utilizei a seguinte formatação da URL:<br /><p>
 
